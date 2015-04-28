@@ -1,11 +1,15 @@
 package com.example.micha.panstwamiasta;
 
+<<<<<<< HEAD
 import android.bluetooth.BluetoothAdapter;
 import android.bluetooth.BluetoothDevice;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
+=======
+import android.content.Intent;
+>>>>>>> origin/master
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -44,6 +48,7 @@ public class MainActivity22Activity extends ActionBarActivity {
         return super.onOptionsItemSelected(item);
     }
 
+<<<<<<< HEAD
     // Create a BroadcastReceiver for ACTION_FOUND
     private final BroadcastReceiver mReceiver = new BroadcastReceiver() {
         public void onReceive(Context context, Intent intent) {
@@ -62,11 +67,16 @@ public class MainActivity22Activity extends ActionBarActivity {
     registerReceiver(mReceiver, filter); // Don't forget to unregister during onDestroy
 
 
+=======
+>>>>>>> origin/master
     public void dalej(View view) {
         Intent dalej = new Intent(this, MainActivity2Activity.class);
         startActivity(dalej);
     }
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/master
 }

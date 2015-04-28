@@ -1,7 +1,10 @@
 package com.example.micha.panstwamiasta;
 
+<<<<<<< HEAD
 import android.app.DownloadManager;
 import android.bluetooth.BluetoothAdapter;
+=======
+>>>>>>> origin/master
 import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
@@ -43,6 +46,7 @@ public class MainActivity extends ActionBarActivity {
     }
 
     public void jedengracz(View view) {
+<<<<<<< HEAD
         Intent jedengracz = new Intent(this, MainActivity2Activity.class);
         startActivity(jedengracz);
     }
@@ -66,6 +70,26 @@ public class MainActivity extends ActionBarActivity {
         }
 
 
+=======
+<<<<<<< HEAD
+        Intent jedengracz = new Intent(this, MainActivity2Activity.class);
+        startActivity(jedengracz);
+=======
+        Intent intent = new Intent(this, MainActivity2Activity.class);
+        startActivity(intent);
+>>>>>>> origin/master
+    }
+
+    public void dwochgraczy(View view) {
+
+<<<<<<< HEAD
+        Intent dwochgraczy = new Intent(this, MainActivity22Activity.class);
+        startActivity(dwochgraczy);
+=======
+        Intent intent2 = new Intent(this, MainActivity22Activity.class);
+        startActivity(intent2);
+>>>>>>> origin/master
+>>>>>>> origin/master
     }
 }
 

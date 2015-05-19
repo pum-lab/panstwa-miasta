@@ -1,11 +1,33 @@
 package com.example.micha.panstwamiasta;
 
+<<<<<<< HEAD
 import android.content.Intent;
+=======
+<<<<<<< HEAD
+import android.content.Intent;
+=======
+<<<<<<< HEAD
+import android.content.Intent;
+=======
+>>>>>>> origin/master
+>>>>>>> origin/master
+>>>>>>> origin/master
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+<<<<<<< HEAD
 import android.view.View;
+=======
+<<<<<<< HEAD
+import android.view.View;
+=======
+<<<<<<< HEAD
+import android.view.View;
+=======
+>>>>>>> origin/master
+>>>>>>> origin/master
+>>>>>>> origin/master
 
 
 public class MainActivity2Activity extends ActionBarActivity {
@@ -38,9 +60,24 @@ public class MainActivity2Activity extends ActionBarActivity {
 
         return super.onOptionsItemSelected(item);
     }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> origin/master
+>>>>>>> origin/master
 
     public void rozpocznijgre(View view) {
         Intent rozpocznijgre = new Intent(this, Gra.class);
         startActivity(rozpocznijgre);
     }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> origin/master
+>>>>>>> origin/master
+>>>>>>> origin/master
 }

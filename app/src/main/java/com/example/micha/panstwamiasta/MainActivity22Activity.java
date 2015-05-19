@@ -1,11 +1,21 @@
 package com.example.micha.panstwamiasta;
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> origin/master
 import android.bluetooth.BluetoothAdapter;
 import android.bluetooth.BluetoothDevice;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
+<<<<<<< HEAD
+=======
+=======
+import android.content.Intent;
+>>>>>>> origin/master
+>>>>>>> origin/master
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -44,14 +54,45 @@ public class MainActivity22Activity extends ActionBarActivity {
         return super.onOptionsItemSelected(item);
     }
 
+<<<<<<< HEAD
 
 
 
+=======
+<<<<<<< HEAD
+    // Create a BroadcastReceiver for ACTION_FOUND
+    private final BroadcastReceiver mReceiver = new BroadcastReceiver() {
+        public void onReceive(Context context, Intent intent) {
+            String action = intent.getAction();
+            // When discovery finds a device
+            if (BluetoothDevice.ACTION_FOUND.equals(action)) {
+                // Get the BluetoothDevice object from the Intent
+                BluetoothDevice device = intent.getParcelableExtra(BluetoothDevice.EXTRA_DEVICE);
+                // Add the name and address to an array adapter to show in a ListView
+                mArrayAdapter.add(device.getName() + "\n" + device.getAddress());
+            }
+        }
+    };
+    // Register the BroadcastReceiver
+    IntentFilter filter = new IntentFilter(BluetoothDevice.ACTION_FOUND);
+    registerReceiver(mReceiver, filter); // Don't forget to unregister during onDestroy
+
+
+=======
+>>>>>>> origin/master
+>>>>>>> origin/master
     public void dalej(View view) {
         Intent dalej = new Intent(this, MainActivity2Activity.class);
         startActivity(dalej);
     }
 
 
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> origin/master
+>>>>>>> origin/master
 }

@@ -1,28 +1,40 @@
 package com.example.micha.panstwamiasta;
 
 import android.content.Intent;
+<<<<<<< HEAD
 import android.os.CountDownTimer;
+=======
+>>>>>>> origin/master
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+<<<<<<< HEAD
 import android.widget.TextView;
 
+=======
+>>>>>>> origin/master
 
 
 public class Gra extends ActionBarActivity {
 
+<<<<<<< HEAD
     TextView myTimer;
 
+=======
+>>>>>>> origin/master
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_gra);
+<<<<<<< HEAD
 
         myTimer = (TextView)findViewById(R.id.timer);
 
         timer(true);
+=======
+>>>>>>> origin/master
     }
 
 
@@ -34,11 +46,14 @@ public class Gra extends ActionBarActivity {
     }
 
     @Override
+<<<<<<< HEAD
     public void onBackPressed(){
 
     }
 
     @Override
+=======
+>>>>>>> origin/master
     public boolean onOptionsItemSelected(MenuItem item) {
         // Handle action bar item clicks here. The action bar will
         // automatically handle clicks on the Home/Up button, so long
@@ -53,6 +68,7 @@ public class Gra extends ActionBarActivity {
         return super.onOptionsItemSelected(item);
     }
 
+<<<<<<< HEAD
     void timer (boolean u){
 
         if(u==true) {
@@ -73,6 +89,8 @@ public class Gra extends ActionBarActivity {
         }
     }
 
+=======
+>>>>>>> origin/master
     public void zakoncz(View view) {
         Intent zakoncz = new Intent(this, Wynik.class);
         startActivity(zakoncz);

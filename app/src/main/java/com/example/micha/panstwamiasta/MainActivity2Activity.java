@@ -1,31 +1,67 @@
 package com.example.micha.panstwamiasta;
 
+<<<<<<< HEAD
 import android.content.Intent;
+=======
+<<<<<<< HEAD
+import android.content.Intent;
+=======
+<<<<<<< HEAD
+import android.content.Intent;
+=======
+<<<<<<< HEAD
+import android.content.Intent;
+=======
+>>>>>>> origin/master
+>>>>>>> origin/master
+>>>>>>> origin/master
+>>>>>>> origin/master
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+<<<<<<< HEAD
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
 import java.util.Random;
+=======
+<<<<<<< HEAD
+import android.view.View;
+=======
+<<<<<<< HEAD
+import android.view.View;
+=======
+<<<<<<< HEAD
+import android.view.View;
+=======
+>>>>>>> origin/master
+>>>>>>> origin/master
+>>>>>>> origin/master
+>>>>>>> origin/master
 
 
 public class MainActivity2Activity extends ActionBarActivity {
 
+<<<<<<< HEAD
     Button losuj;
     TextView litera;
 
+=======
+>>>>>>> origin/master
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_activity2);
+<<<<<<< HEAD
 
         losuj = (Button) findViewById(R.id.losowanko);
         litera = (TextView) findViewById(R.id.wylosowana);
 
         losuj.setOnClickListener(losujOnClickListener);
+=======
+>>>>>>> origin/master
     }
 
 
@@ -50,6 +86,7 @@ public class MainActivity2Activity extends ActionBarActivity {
 
         return super.onOptionsItemSelected(item);
     }
+<<<<<<< HEAD
 
     private Button.OnClickListener losujOnClickListener = new Button.OnClickListener() {
 
@@ -62,9 +99,29 @@ public class MainActivity2Activity extends ActionBarActivity {
 
          }
     };
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> origin/master
+>>>>>>> origin/master
+>>>>>>> origin/master
 
     public void rozpocznijgre(View view) {
         Intent rozpocznijgre = new Intent(this, Gra.class);
         startActivity(rozpocznijgre);
     }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> origin/master
+>>>>>>> origin/master
+>>>>>>> origin/master
+>>>>>>> origin/master
 }

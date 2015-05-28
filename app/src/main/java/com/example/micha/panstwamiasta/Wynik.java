@@ -25,11 +25,14 @@ public class Wynik extends ActionBarActivity {
     }
 
     @Override
+<<<<<<< HEAD
     public void onBackPressed(){
 
     }
 
     @Override
+=======
+>>>>>>> origin/master
     public boolean onOptionsItemSelected(MenuItem item) {
         // Handle action bar item clicks here. The action bar will
         // automatically handle clicks on the Home/Up button, so long

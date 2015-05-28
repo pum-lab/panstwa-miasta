@@ -1,30 +1,41 @@
 package com.example.micha.panstwamiasta;
 
-import android.app.DownloadManager;
-import android.bluetooth.BluetoothAdapter;
 import android.content.Intent;
+import android.os.CountDownTimer;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.EditText;
+import android.widget.TextView;
 
 
-public class MainActivity extends ActionBarActivity {
+
+public class Gra extends ActionBarActivity {
+
+    TextView myTimer;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_gra);
+
+        myTimer = (TextView)findViewById(R.id.timer);
+
+        timer(true);
     }
 
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_main, menu);
+        getMenuInflater().inflate(R.menu.menu_gra, menu);
         return true;
+    }
+
+    @Override
+    public void onBackPressed(){
+
     }
 
     @Override
@@ -42,21 +53,28 @@ public class MainActivity extends ActionBarActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    public void jedengracz(View view) {
-        Intent jedengracz = new Intent(this, MainActivity2Activity.class);
-        startActivity(jedengracz);
+    void timer (boolean u){
+
+        if(u==true) {
+
+            new CountDownTimer(100000, 1000) {
+
+                public void onFinish() {
+                    myTimer.setText("Koniec czasu");
+                    Intent koniec = new Intent(Gra.this, Wynik.class);
+                    startActivity(koniec);
+                }
+
+                  public void onTick(long millisUntilFinished) {
+                    myTimer.setText("Pozostało: " + millisUntilFinished / 1000 + "s");
+                }
+            }.start();
+
+        }
     }
 
-    public void dwochgraczy_k(View view) {
-
-        Intent dwochgraczy_k = new Intent(this, MainActivity22Activity.class);
-        startActivity(dwochgraczy_k);
-    }
-
-    public void dwochgraczy_s(View view) {
-
-        Intent dwochgraczy_s = new Intent(this, bluetooth_connect_serwer.class);
-        startActivity(dwochgraczy_s);
+    public void zakoncz(View view) {
+        Intent zakoncz = new Intent(this, Wynik.class);
+        startActivity(zakoncz);
     }
 }
-

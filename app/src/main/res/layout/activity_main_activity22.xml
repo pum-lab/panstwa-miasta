@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Dostępne urządzenia:"
+        android:textColor="#ff000000"
+        android:textSize="@dimen/abc_text_size_display_1_material" />
+
+    <Button
+        android:id="@+id/scandevice"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Skanuj"
+        android:enabled="false"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="#ff474747"
+        android:textColor="#ffffffff"
+        android:textSize="@dimen/abc_text_size_title_material" />
+
+    <ListView
+        android:id="@+id/devicesfound"
+        android:layout_width="fill_parent"
+        android:layout_height="366dp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Połącz"
+        android:id="@+id/polacz"
+        android:layout_alignBaseline="@+id/button7"
+        android:layout_alignBottom="@+id/button7"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="right" />
+</LinearLayout>

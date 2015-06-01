@@ -6,6 +6,19 @@
     android:paddingBottom="@dimen/activity_vertical_margin"
     tools:context="com.example.micha.panstwamiasta.Ranking">
 
+<<<<<<< HEAD
+=======
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Udostępnij wynik"
+        android:id="@+id/textView11"
+        android:layout_above="@+id/button11"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="144dp" />
+
+>>>>>>> origin/master
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -16,6 +29,7 @@
         android:layout_alignParentEnd="true"
         android:onClick="menu"/>
 
+<<<<<<< HEAD
     <com.facebook.login.widget.LoginButton
         android:id="@+id/login_button"
         android:layout_width="wrap_content"
@@ -35,4 +49,6 @@
         android:id="@+id/textView3"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true" />
+=======
+>>>>>>> origin/master
 </RelativeLayout>

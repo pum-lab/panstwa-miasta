@@ -43,7 +43,15 @@
         style="?android:attr/buttonStyleSmall"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+<<<<<<< HEAD
         android:text="2 graczy - klient"
+=======
+<<<<<<< HEAD
+        android:text="2 graczy - klient"
+=======
+        android:text="2 graczy"
+>>>>>>> origin/master
+>>>>>>> origin/master
         android:id="@+id/button3"
         android:layout_below="@+id/button"
         android:layout_alignLeft="@+id/button"
@@ -51,6 +59,10 @@
         android:layout_toStartOf="@+id/button2"
         android:layout_alignRight="@+id/button"
         android:layout_alignEnd="@+id/button"
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> origin/master
         android:onClick="dwochgraczy_k"/>
 
     <Button
@@ -65,4 +77,10 @@
         android:layout_alignStart="@+id/button3"
         android:layout_alignRight="@+id/button3"
         android:layout_alignEnd="@+id/button3" />
+<<<<<<< HEAD
+=======
+=======
+        android:onClick="dwochgraczy"/>
+>>>>>>> origin/master
+>>>>>>> origin/master
 </RelativeLayout>

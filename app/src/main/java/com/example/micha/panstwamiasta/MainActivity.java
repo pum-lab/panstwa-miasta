@@ -1,7 +1,25 @@
 package com.example.micha.panstwamiasta;
 
+<<<<<<< HEAD
 import android.app.DownloadManager;
 import android.bluetooth.BluetoothAdapter;
+=======
+<<<<<<< HEAD
+import android.app.DownloadManager;
+import android.bluetooth.BluetoothAdapter;
+=======
+<<<<<<< HEAD
+import android.app.DownloadManager;
+import android.bluetooth.BluetoothAdapter;
+=======
+<<<<<<< HEAD
+import android.app.DownloadManager;
+import android.bluetooth.BluetoothAdapter;
+=======
+>>>>>>> origin/master
+>>>>>>> origin/master
+>>>>>>> origin/master
+>>>>>>> origin/master
 import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
@@ -43,10 +61,24 @@ public class MainActivity extends ActionBarActivity {
     }
 
     public void jedengracz(View view) {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> origin/master
+>>>>>>> origin/master
+>>>>>>> origin/master
         Intent jedengracz = new Intent(this, MainActivity2Activity.class);
         startActivity(jedengracz);
     }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> origin/master
     public void dwochgraczy_k(View view) {
 
         Intent dwochgraczy_k = new Intent(this, MainActivity22Activity.class);
@@ -57,6 +89,53 @@ public class MainActivity extends ActionBarActivity {
 
         Intent dwochgraczy_s = new Intent(this, bluetooth_connect_serwer.class);
         startActivity(dwochgraczy_s);
+<<<<<<< HEAD
+=======
+=======
+    private final static int REQUEST_ENABLE_BT = 1;
+
+    public void dwochgraczy(View view) {
+
+        Intent dwochgraczy = new Intent(this, MainActivity22Activity.class);
+        startActivity(dwochgraczy);
+
+
+        BluetoothAdapter mBT = BluetoothAdapter.getDefaultAdapter();
+        if (mBT == null) {
+            // Device does not support Bluetooth
+        }
+
+        if (!mBT.isEnabled()) {
+            Intent enableBtIntent = new Intent(BluetoothAdapter.ACTION_REQUEST_ENABLE);
+            startActivityForResult(enableBtIntent, REQUEST_ENABLE_BT);
+        }
+
+
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+        Intent jedengracz = new Intent(this, MainActivity2Activity.class);
+        startActivity(jedengracz);
+=======
+        Intent intent = new Intent(this, MainActivity2Activity.class);
+        startActivity(intent);
+>>>>>>> origin/master
+    }
+
+    public void dwochgraczy(View view) {
+
+<<<<<<< HEAD
+        Intent dwochgraczy = new Intent(this, MainActivity22Activity.class);
+        startActivity(dwochgraczy);
+=======
+        Intent intent2 = new Intent(this, MainActivity22Activity.class);
+        startActivity(intent2);
+>>>>>>> origin/master
+>>>>>>> origin/master
+>>>>>>> origin/master
+>>>>>>> origin/master
+>>>>>>> origin/master
     }
 }
 

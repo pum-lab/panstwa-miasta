@@ -7,8 +7,11 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
+<<<<<<< HEAD
 import com.example.micha.panstwamiasta.com.facebook.FacebookActivity;
 
+=======
+>>>>>>> origin/master
 
 public class Ranking extends ActionBarActivity {
 
@@ -40,11 +43,14 @@ public class Ranking extends ActionBarActivity {
 
         return super.onOptionsItemSelected(item);
     }
+<<<<<<< HEAD
     public void udostepnienie(View view) {
     Intent udostepnienie = new Intent(this, com.facebook.FacebookActivity.class);
       startActivity(udostepnienie);
 
     }
+=======
+>>>>>>> origin/master
 
     public void menu(View view) {
         Intent menu = new Intent(this, MainActivity.class);

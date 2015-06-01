@@ -1,29 +1,38 @@
 package com.example.micha.panstwamiasta;
 
-import android.app.DownloadManager;
-import android.bluetooth.BluetoothAdapter;
 import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.EditText;
+import android.widget.Button;
+import android.widget.TextView;
+
+import java.util.Random;
 
 
-public class MainActivity extends ActionBarActivity {
+public class MainActivity2Activity extends ActionBarActivity {
+
+    Button losuj;
+    TextView litera;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_main_activity2);
+
+        losuj = (Button) findViewById(R.id.losowanko);
+        litera = (TextView) findViewById(R.id.wylosowana);
+
+        losuj.setOnClickListener(losujOnClickListener);
     }
 
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_main, menu);
+        getMenuInflater().inflate(R.menu.menu_main_activity2, menu);
         return true;
     }
 
@@ -42,21 +51,20 @@ public class MainActivity extends ActionBarActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    public void jedengracz(View view) {
-        Intent jedengracz = new Intent(this, MainActivity2Activity.class);
-        startActivity(jedengracz);
-    }
+    private Button.OnClickListener losujOnClickListener = new Button.OnClickListener() {
 
-    public void dwochgraczy_k(View view) {
+        @Override
+        public void onClick(View arg0) {
 
-        Intent dwochgraczy_k = new Intent(this, MainActivity22Activity.class);
-        startActivity(dwochgraczy_k);
-    }
 
-    public void dwochgraczy_s(View view) {
+            String[] chars = {"A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "R", "S", "T", "U", "W", "Z"};
+            litera.setText(chars[(int) (Math.random() * 10)]);
 
-        Intent dwochgraczy_s = new Intent(this, bluetooth_connect_serwer.class);
-        startActivity(dwochgraczy_s);
+         }
+    };
+
+    public void rozpocznijgre(View view) {
+        Intent rozpocznijgre = new Intent(this, Gra.class);
+        startActivity(rozpocznijgre);
     }
 }
-

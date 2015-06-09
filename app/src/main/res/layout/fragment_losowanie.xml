@@ -1,0 +1,43 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.micha.panstwamiasta.losowanie">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Losuj literę"
+        android:id="@+id/losowanko"
+        android:layout_above="@+id/button4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="127dp"
+        android:layout_alignRight="@+id/button4"
+        android:layout_alignEnd="@+id/button4"
+        android:layout_gravity="center_horizontal|bottom" />
+
+    <TextView
+        android:layout_width="27dp"
+        android:layout_height="260dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/wylosowana"
+        android:layout_marginTop="73dp"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="342dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Wylosowałeś literę"
+        android:id="@+id/textView2"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:textAlignment="center" />
+
+</FrameLayout>

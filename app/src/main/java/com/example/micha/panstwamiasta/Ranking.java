@@ -7,6 +7,14 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+import com.example.micha.panstwamiasta.com.facebook.FacebookActivity;
+
+=======
+>>>>>>> origin/master
+>>>>>>> origin/master
 
 public class Ranking extends ActionBarActivity {
 
@@ -16,6 +24,10 @@ public class Ranking extends ActionBarActivity {
         setContentView(R.layout.activity_ranking);
     }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/master
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
@@ -37,6 +49,17 @@ public class Ranking extends ActionBarActivity {
 
         return super.onOptionsItemSelected(item);
     }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+    public void udostepnienie(View view) {
+    Intent udostepnienie = new Intent(this, com.facebook.FacebookActivity.class);
+      startActivity(udostepnienie);
+
+    }
+=======
+>>>>>>> origin/master
+>>>>>>> origin/master
 
     public void menu(View view) {
         Intent menu = new Intent(this, MainActivity.class);

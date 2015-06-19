@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <Button
+        android:id="@+id/buttonSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Szukaj"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Połączone urzazenia:"
+        android:id="@+id/textView3" />
+
+    <ListView
+        android:id="@+id/listViewPaired"
+        android:layout_width="match_parent"
+        android:layout_height="120dp">
+    </ListView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dostępne urządzenia:"
+        android:id="@+id/textView4" />
+
+    <ListView
+        android:id="@+id/listViewDetected"
+        android:layout_width="match_parent"
+        android:layout_height="119dp"
+        android:layout_weight="0.82">
+
+    </ListView>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rozpocznij gre"
+        android:id="@+id/button8"
+        android:onClick="rozpocznijgre" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Powrót do menu"
+        android:id="@+id/button12"
+        android:onClick="powrot" />
+</LinearLayout>

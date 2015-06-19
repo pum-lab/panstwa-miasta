@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/PanstwaMiasta.iml" filepath="$PROJECT_DIR$/PanstwaMiasta.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Panstwa-Miasta x.iml" filepath="$PROJECT_DIR$/Panstwa-Miasta x.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
+<<<<<<< HEAD
 </project>
+=======
+</project>
+>>>>>>> origin/master

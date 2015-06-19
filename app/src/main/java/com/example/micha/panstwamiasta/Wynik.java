@@ -1,15 +1,20 @@
 package com.example.micha.panstwamiasta;
 
+<<<<<<< HEAD
 import android.bluetooth.BluetoothAdapter;
 import android.bluetooth.BluetoothDevice;
 import android.bluetooth.BluetoothSocket;
 import android.content.Intent;
 import android.os.Handler;
+=======
+import android.content.Intent;
+>>>>>>> origin/master
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+<<<<<<< HEAD
 import android.widget.Button;
 import android.widget.TextView;
 
@@ -22,10 +27,17 @@ public class Wynik extends ActionBarActivity {
 
     TextView wynik;
 
+=======
+
+
+public class Wynik extends ActionBarActivity {
+
+>>>>>>> origin/master
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_wynik);
+<<<<<<< HEAD
 
         wynik = (TextView) findViewById(R.id.textView12);
 
@@ -35,6 +47,11 @@ public class Wynik extends ActionBarActivity {
         wynik.setText(litera);
     }
 
+=======
+    }
+
+
+>>>>>>> origin/master
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
@@ -43,11 +60,32 @@ public class Wynik extends ActionBarActivity {
     }
 
     @Override
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> origin/master
+>>>>>>> origin/master
+>>>>>>> origin/master
     public void onBackPressed(){
 
     }
 
     @Override
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> origin/master
+>>>>>>> origin/master
+>>>>>>> origin/master
+>>>>>>> origin/master
     public boolean onOptionsItemSelected(MenuItem item) {
         // Handle action bar item clicks here. The action bar will
         // automatically handle clicks on the Home/Up button, so long
@@ -71,4 +109,8 @@ public class Wynik extends ActionBarActivity {
         Intent jeszczeraz = new Intent(this, MainActivity2Activity.class);
         startActivity(jeszczeraz);
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> origin/master

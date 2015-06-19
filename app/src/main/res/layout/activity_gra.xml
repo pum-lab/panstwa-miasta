@@ -73,7 +73,15 @@
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+<<<<<<< HEAD
         android:id="@+id/panstwo"
+=======
+<<<<<<< HEAD
+        android:id="@+id/panstwo"
+=======
+        android:id="@+id/editText"
+>>>>>>> origin/master
+>>>>>>> origin/master
         android:layout_alignTop="@+id/textView5"
         android:layout_alignRight="@+id/button6"
         android:layout_alignEnd="@+id/button6"
@@ -83,36 +91,85 @@
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> origin/master
         android:id="@+id/miasto"
         android:layout_alignTop="@+id/textView6"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         android:layout_alignLeft="@+id/panstwo"
         android:layout_alignStart="@+id/panstwo" />
+<<<<<<< HEAD
+=======
+=======
+        android:id="@+id/editText2"
+        android:layout_alignTop="@+id/textView6"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignLeft="@+id/editText"
+        android:layout_alignStart="@+id/editText" />
+>>>>>>> origin/master
+>>>>>>> origin/master
 
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> origin/master
         android:id="@+id/zwierze"
         android:layout_alignTop="@+id/textView7"
         android:layout_alignRight="@+id/miasto"
         android:layout_alignEnd="@+id/miasto"
         android:layout_alignLeft="@+id/miasto"
         android:layout_alignStart="@+id/miasto" />
+<<<<<<< HEAD
+=======
+=======
+        android:id="@+id/editText3"
+        android:layout_alignTop="@+id/textView7"
+        android:layout_alignRight="@+id/editText2"
+        android:layout_alignEnd="@+id/editText2"
+        android:layout_alignLeft="@+id/editText2"
+        android:layout_alignStart="@+id/editText2" />
+>>>>>>> origin/master
+>>>>>>> origin/master
 
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> origin/master
         android:id="@+id/roslina"
         android:layout_alignTop="@+id/textView8"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         android:layout_alignLeft="@+id/zwierze"
         android:layout_alignStart="@+id/zwierze" />
+<<<<<<< HEAD
+=======
+=======
+        android:id="@+id/editText4"
+        android:layout_alignTop="@+id/textView8"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignLeft="@+id/editText3"
+        android:layout_alignStart="@+id/editText3" />
+>>>>>>> origin/master
+>>>>>>> origin/master
 
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> origin/master
         android:id="@+id/rzeka"
         android:layout_alignTop="@+id/textView9"
         android:layout_alignRight="@+id/button6"
@@ -120,11 +177,31 @@
         android:layout_alignLeft="@+id/roslina"
         android:layout_alignStart="@+id/roslina" />
 
+<<<<<<< HEAD
+=======
+=======
+        android:id="@+id/editText5"
+        android:layout_alignTop="@+id/textView9"
+        android:layout_alignRight="@+id/button6"
+        android:layout_alignEnd="@+id/button6"
+        android:layout_alignLeft="@+id/editText4"
+        android:layout_alignStart="@+id/editText4" />
+
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> origin/master
+>>>>>>> origin/master
+>>>>>>> origin/master
     <TextView
         android:id="@+id/timer"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> origin/master
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -135,4 +212,16 @@
         android:layout_alignParentEnd="true" />
 
 
+<<<<<<< HEAD
+=======
+=======
+
+
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> origin/master
+>>>>>>> origin/master
+>>>>>>> origin/master
+>>>>>>> origin/master
 </RelativeLayout>

@@ -1,7 +1,10 @@
 package com.example.micha.panstwamiasta;
 
 
+<<<<<<< HEAD
 import android.app.Activity;
+=======
+>>>>>>> origin/master
 import android.content.Intent;
 import android.os.Bundle;
 import android.app.Fragment;
@@ -11,14 +14,21 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.TextView;
 
+<<<<<<< HEAD
 import java.io.IOException;
 
+=======
+>>>>>>> origin/master
 
 public class losowanie extends Fragment {
 
     Button losuj;
     TextView litera;
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/master
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         // Inflate the layout for this fragment
@@ -34,6 +44,7 @@ public class losowanie extends Fragment {
 
         losuj.setOnClickListener(losujOnClickListener);
 
+<<<<<<< HEAD
         losujlitere();
     }
 
@@ -56,11 +67,23 @@ public class losowanie extends Fragment {
     }
 
 
+=======
+        String[] chars = {"A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "R", "S", "T", "U", "W", "Z"};
+        litera.setText(chars[(int) (Math.random() * 22)]);
+    }
+
+>>>>>>> origin/master
     public Button.OnClickListener losujOnClickListener = new Button.OnClickListener() {
 
         @Override
         public void onClick(View arg0) {
+<<<<<<< HEAD
             losujlitere();
+=======
+
+            String[] chars = {"A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "R", "S", "T", "U", "W", "Z"};
+            litera.setText(chars[(int) (Math.random() * 22)]);
+>>>>>>> origin/master
         }
     };
 

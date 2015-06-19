@@ -34,17 +34,46 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Wyjście"
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> origin/master
         android:id="@+id/close"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:onClick="close"/>
+<<<<<<< HEAD
+=======
+=======
+        android:id="@+id/button2"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true" />
+>>>>>>> origin/master
+>>>>>>> origin/master
 
     <Button
         style="?android:attr/buttonStyleSmall"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+<<<<<<< HEAD
         android:text="2 graczy - dołącz do gry"
+=======
+<<<<<<< HEAD
+        android:text="2 graczy - dołącz do gry"
+=======
+<<<<<<< HEAD
+        android:text="2 graczy - klient"
+=======
+<<<<<<< HEAD
+        android:text="2 graczy - klient"
+=======
+        android:text="2 graczy"
+>>>>>>> origin/master
+>>>>>>> origin/master
+>>>>>>> origin/master
+>>>>>>> origin/master
         android:id="@+id/button3"
         android:layout_below="@+id/button"
         android:layout_alignLeft="@+id/button"
@@ -52,13 +81,31 @@
         android:layout_toStartOf="@+id/button2"
         android:layout_alignRight="@+id/button"
         android:layout_alignEnd="@+id/button"
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> origin/master
+>>>>>>> origin/master
+>>>>>>> origin/master
         android:onClick="dwochgraczy_k"/>
 
     <Button
         style="?android:attr/buttonStyleSmall"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+<<<<<<< HEAD
         android:text="2 graczy - stwórz grę"
+=======
+<<<<<<< HEAD
+        android:text="2 graczy - stwórz grę"
+=======
+        android:text="2 graczy - serwer"
+>>>>>>> origin/master
+>>>>>>> origin/master
         android:id="@+id/button5"
         android:onClick="dwochgraczy_s"
         android:layout_below="@+id/button3"
@@ -66,4 +113,16 @@
         android:layout_alignStart="@+id/button3"
         android:layout_alignRight="@+id/button3"
         android:layout_alignEnd="@+id/button3" />
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+        android:onClick="dwochgraczy"/>
+>>>>>>> origin/master
+>>>>>>> origin/master
+>>>>>>> origin/master
+>>>>>>> origin/master
 </RelativeLayout>
